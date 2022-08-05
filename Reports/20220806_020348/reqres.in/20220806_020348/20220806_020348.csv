@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+reqres.in,,,,2022-08-06 02:03:57,2022-08-06 02:04:08,"10,858s",PASSED
+,,,,,,,
+Test Cases/List User,,,,2022-08-06 02:03:57,2022-08-06 02:04:03,"5,675s",PASSED
+"response = sendRequest(findTestObject(""List User""))",,,,2022-08-06 02:03:58,2022-08-06 02:04:03,"4,660s",PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-08-06 02:04:03,2022-08-06 02:04:03,"0,038s",PASSED
+"verifyElementPropertyValue(response, ""data[2].first_name"", ""Emma"")",,,,2022-08-06 02:04:03,2022-08-06 02:04:03,"0,251s",PASSED
+,,,,,,,
+Test Cases/Register Successful,,,,2022-08-06 02:04:03,2022-08-06 02:04:05,"2,205s",PASSED
+"response = sendRequest(findTestObject(""Register Successful""))",,,,2022-08-06 02:04:04,2022-08-06 02:04:05,"0,815s",PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-08-06 02:04:05,2022-08-06 02:04:05,"0,007s",PASSED
+"verifyElementPropertyValue(response, ""token"", ""QpwL5tke4Pnpja7X3"")",,,,2022-08-06 02:04:05,2022-08-06 02:04:05,"0,040s",PASSED
+,,,,,,,
+Test Cases/Single User,,,,2022-08-06 02:04:05,2022-08-06 02:04:06,"1,096s",PASSED
+"response = sendRequest(findTestObject(""Single User""))",,,,2022-08-06 02:04:06,2022-08-06 02:04:06,"0,308s",PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-08-06 02:04:06,2022-08-06 02:04:06,"0,008s",PASSED
+"verifyElementPropertyValue(response, ""data.email"", ""emma.wong@reqres.in"")",,,,2022-08-06 02:04:06,2022-08-06 02:04:06,"0,064s",PASSED
+,,,,,,,
+Test Cases/Update,,,,2022-08-06 02:04:06,2022-08-06 02:04:08,"1,320s",PASSED
+"response = sendRequest(findTestObject(""Update""))",,,,2022-08-06 02:04:07,2022-08-06 02:04:08,"0,664s",PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-08-06 02:04:08,2022-08-06 02:04:08,"0,004s",PASSED
+"verifyElementPropertyValue(response, ""name"", ""Emmy"")",,,,2022-08-06 02:04:08,2022-08-06 02:04:08,"0,050s",PASSED

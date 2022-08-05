@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="reqres.in" time="10.858" tests="4" failures="0" errors="0">
+   <testsuite name="reqres.in" tests="4" failures="0" errors="0" time="10.858" skipped="0" timestamp="2022-08-06 02:03:57" hostname="user pc - INTA" id="Test Suites/reqres.in">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\user pc\\git\\Assignment-for-QA\\Reports\\20220806_020348\\reqres.in\\20220806_020348"/>
+         <property name="logFiles" value="C:\\Users\\user pc\\git\\Assignment-for-QA\\Reports\\20220806_020348\\reqres.in\\20220806_020348\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="user pc - INTA"/>
+         <property name="hostAddress" value="192.168.100.7"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.5.208"/>
+      </properties>
+      <testcase name="Test Cases/List User" time="5.675" classname="Test Cases/List User" status="PASSED">
+         <system-out><![CDATA[2022-08-06 02:03:57 - [TEST_CASE][PASSED] - Test Cases/List User: Test Cases/List User
+
+2022-08-06 02:03:58 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("List User")): Send request successfully
+
+2022-08-06 02:04:02 - [MESSAGE][INFO] - HAR: C:\Users\user pc\git\Assignment-for-QA\Reports\20220806_020348\reqres.in\20220806_020348\requests\main\0.har
+
+2022-08-06 02:04:03 - [MESSAGE][PASSED] - Send request successfully
+
+2022-08-06 02:04:03 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-08-06 02:04:03 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-08-06 02:04:03 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[2].first_name", "Emma"): Verify element property value successfully
+
+2022-08-06 02:04:03 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register Successful" time="2.205" classname="Test Cases/Register Successful" status="PASSED">
+         <system-out><![CDATA[2022-08-06 02:04:03 - [TEST_CASE][PASSED] - Test Cases/Register Successful: Test Cases/Register Successful
+
+2022-08-06 02:04:04 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Register Successful")): Send request successfully
+
+2022-08-06 02:04:05 - [MESSAGE][INFO] - HAR: C:\Users\user pc\git\Assignment-for-QA\Reports\20220806_020348\reqres.in\20220806_020348\requests\main\1.har
+
+2022-08-06 02:04:05 - [MESSAGE][PASSED] - Send request successfully
+
+2022-08-06 02:04:05 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-08-06 02:04:05 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-08-06 02:04:05 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "token", "QpwL5tke4Pnpja7X3"): Verify element property value successfully
+
+2022-08-06 02:04:05 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Single User" time="1.096" classname="Test Cases/Single User" status="PASSED">
+         <system-out><![CDATA[2022-08-06 02:04:05 - [TEST_CASE][PASSED] - Test Cases/Single User: Test Cases/Single User
+
+2022-08-06 02:04:06 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Single User")): Send request successfully
+
+2022-08-06 02:04:06 - [MESSAGE][INFO] - HAR: C:\Users\user pc\git\Assignment-for-QA\Reports\20220806_020348\reqres.in\20220806_020348\requests\main\2.har
+
+2022-08-06 02:04:06 - [MESSAGE][PASSED] - Send request successfully
+
+2022-08-06 02:04:06 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-08-06 02:04:06 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-08-06 02:04:06 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data.email", "emma.wong@reqres.in"): Verify element property value successfully
+
+2022-08-06 02:04:06 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Update" time="1.32" classname="Test Cases/Update" status="PASSED">
+         <system-out><![CDATA[2022-08-06 02:04:06 - [TEST_CASE][PASSED] - Test Cases/Update: Test Cases/Update
+
+2022-08-06 02:04:07 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Update")): Send request successfully
+
+2022-08-06 02:04:08 - [MESSAGE][INFO] - HAR: C:\Users\user pc\git\Assignment-for-QA\Reports\20220806_020348\reqres.in\20220806_020348\requests\main\3.har
+
+2022-08-06 02:04:08 - [MESSAGE][PASSED] - Send request successfully
+
+2022-08-06 02:04:08 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-08-06 02:04:08 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-08-06 02:04:08 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "name", "Emmy"): Verify element property value successfully
+
+2022-08-06 02:04:08 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-08-06 02:03:57 - [TEST_SUITE][PASSED] - reqres.in: Test Cases/Update]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
